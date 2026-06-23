@@ -16,3 +16,12 @@ Modern, hafif ve kullanıcı dostu bir Yapılacaklar Listesi (To-Do List) web uy
 - **Veritabanı:** MySQL / SQLite (PDO)
 - **Kütüphaneler:** [SweetAlert2](https://sweetalert2.github.io/) (Animasyonlu Popup'lar için)
 
+## SQL
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    is_completed TINYINT(1) DEFAULT 0,
+    tarih DATETIME DEFAULT CURRENT_TIMESTAMP,
+    bitirme_tarihi DATETIME DEFAULT NULL,
+    guncelleme_tarihi DATETIME DEFAULT NULL
+);
