@@ -17,10 +17,3 @@ Modern, hafif ve kullanıcı dostu bir Yapılacaklar Listesi (To-Do List) web uy
 - **Frontend:** HTML5, CSS3 (Flexbox Mimari)
 - **Kütüphaneler:** [SweetAlert2](https://sweetalert2.github.io/) (Animasyonlu Popup'lar için), JavaScript (DOM Manipülasyonu)
 
-## 🚀 Kurulum ve Çalıştırma
-
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-
-1. Bu depoyu bilgisayarınıza klonlayın:
-   ```bash
-   git clone [https://github.com/KULLANICI_ADIN/php-todo-app.git](https://github.com/KULLANICI_ADIN/php-todo-app.git)
