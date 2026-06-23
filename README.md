@@ -17,11 +17,12 @@ Modern, hafif ve kullanıcı dostu bir Yapılacaklar Listesi (To-Do List) web uy
 - **Kütüphaneler:** [SweetAlert2](https://sweetalert2.github.io/) (Animasyonlu Popup'lar için)
 
 ## SQL
-CREATE TABLE tasks (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    is_completed TINYINT(1) DEFAULT 0,
-    tarih DATETIME DEFAULT CURRENT_TIMESTAMP,
-    bitirme_tarihi DATETIME DEFAULT NULL,
-    guncelleme_tarihi DATETIME DEFAULT NULL
+CREATE TABLE `tasks` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `is_completed` tinyint(1) DEFAULT 0,
+  `tarih` datetime DEFAULT current_timestamp(),
+  `bitirme_tarihi` timestamp NULL DEFAULT NULL,
+  `guncelleme_tarihi` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
 );
