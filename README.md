@@ -14,6 +14,5 @@ Modern, hafif ve kullanıcı dostu bir Yapılacaklar Listesi (To-Do List) web uy
 
 - **Backend:** PHP 8+
 - **Veritabanı:** MySQL / SQLite (PDO)
-- **Frontend:** HTML5, CSS3 (Flexbox Mimari)
-- **Kütüphaneler:** [SweetAlert2](https://sweetalert2.github.io/) (Animasyonlu Popup'lar için), JavaScript (DOM Manipülasyonu)
+- **Kütüphaneler:** [SweetAlert2](https://sweetalert2.github.io/) (Animasyonlu Popup'lar için)
 
